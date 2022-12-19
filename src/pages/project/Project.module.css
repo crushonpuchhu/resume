@@ -4,12 +4,19 @@
      height: 88%;
      display:flex;
      flex-wrap: wrap;
-     overflow:scroll;
+     overflow-y: scroll;
      
 
 }
 
 .main::-webkit-scrollbar
-{
-   display: none;
+{ 
+   width: 10px; 
+}
+.main::-webkit-scrollbar-track
+{   width: 20px; 
+} 
+.main::-webkit-scrollbar-thumb
+{  border-radius: 20px;
+   background-color:var(--purple);
 }
